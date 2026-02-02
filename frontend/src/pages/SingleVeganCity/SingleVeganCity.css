@@ -1,0 +1,45 @@
+.singleVeganCity-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.singleVeganCity-container h1{
+    font-size: 38px;
+    font-family: "raleway",sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.images-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.single-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.veganHotel-image{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.veganHotel-image:hover{
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+.single-image-container p{
+    font-size: 18px;
+    font-weight: 500;
+}

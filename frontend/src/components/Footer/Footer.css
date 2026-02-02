@@ -1,0 +1,8 @@
+.hover-link {
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.hover-link:hover {
+  color: #212529 !important;
+  transform: scale(1.25); /* small smooth zoom, not break layout */
+}

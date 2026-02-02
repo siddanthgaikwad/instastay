@@ -1,0 +1,15 @@
+.custom-userDetails-card{
+    padding: 32px;
+    max-width: 384px;
+    background-color: #fff;
+    margin-top: 24px;
+}
+
+.custom-userDetails-label{
+    font-weight: 600;
+    color: #1F2937;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

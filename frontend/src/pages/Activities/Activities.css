@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400&display=swap');
+
+
+.activities-container{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 65%; */
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    align-items: center;
+    color: white;
+}
+
+.activityVacation-heading{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Raleway", sanserif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+.your-orders{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.single-order{
+    width: 500px;
+    padding: 25px 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 4px 2px rgba(0,0,0,0.2);
+    background: linear-gradient(120deg,rgb(189, 78, 189),rgb(152, 73, 198));
+}
+
+.single-order:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 6px 3px rgba(36, 40, 243, 0.3);
+}   
+
+.name{
+    font-size: 26px;
+    font-weight: 600
+}
+
+.item-details{
+    font-weight: 500;
+}
+
+.notFound-container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+    width: 100%;
+}
+
+.notFound-image{
+    max-width: 80%;
+    height: 400px;
+    object-fit:fill;
+}
+
+.no-orders{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: black;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+@media (mix-width: 768px){
+    .your-orders{
+        flex-direction: column;
+    }
+}
+

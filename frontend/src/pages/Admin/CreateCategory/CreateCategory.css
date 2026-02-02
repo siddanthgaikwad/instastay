@@ -1,0 +1,113 @@
+.createCategory-bg-container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.custom-createCategory-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: baseline; */
+    padding: 16px;
+    width: 100%;
+    /* min-width: 768px; */
+}
+
+.custom-createCategory-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.custom-createCategory-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+    margin-bottom: 16px;
+    width: 80%;
+    /* max-width: 448px; */
+}
+
+.custom-createCategory-formInput{
+    border: 1px solid #d1d5db;
+    padding: 4px 8px;
+    width: 100%;
+    /* max-width: 384px; */
+    background-color: #ffffff;
+    color: #000000;
+    height: 45px;
+}
+
+.custom-createCategory-formButton{
+    padding: 4px 16px;
+    background-color: #2563eb;
+    color: #ffffff;
+    margin-left: 8px;
+    cursor: pointer;
+    height: 45px;
+}
+
+.custom-createCategory-formButton:hover {
+    background-color: #0435bb;
+}
+
+.custom-createCategory-boxContainer{
+    width: 80%;
+    /* max-width: 448px; */
+}
+
+.custom-createCategory-heading2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.createCategory-list{
+    border: 1px solid #d1d5db;
+    padding: 16px;
+    list-style-type: none;
+    /* margin-bottom: 40px; */
+    /* padding-bottom: 30px; */
+}
+
+.createCategory-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid #d1d5db;
+    margin-bottom: 15px;
+}
+
+.custom-row:last-child{
+    border-bottom: 0;
+    margin-bottom: 0px;
+}
+
+.createCategory-custom-yellow-btn{
+    padding: 4px 8px;
+    background-color: #f59e0b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.createCategory-custom-yellow-btn:hover{
+    background-color: #d97706;
+}
+
+.createCategory-custom-red-btn{
+    padding: 4px 8px;
+    background-color: #ef4444;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.createCategory-custom-red-btn:hover{
+    background-color: #dc2626;
+}

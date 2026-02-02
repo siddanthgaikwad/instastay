@@ -1,0 +1,40 @@
+.custom-hotel-margin{
+    margin-top: 64px;
+}
+
+.custom-hotel-heading{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600px;
+    margin-bottom: 32px;
+    margin-left : 128px;
+}
+
+.custom-hotel-card{
+    border-radius: 8px;
+    width: 256px;
+    cursor: pointer;
+    /* transition: transform 0.3s ease-in-out; */
+}
+
+/* .custom-hotel-card:hover{
+    transform: scale(1.05)
+} */
+
+.custom-hotel-image{
+    height: 256px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-hotel-image:hover{
+    transform : scale(1.05);
+    filter: brightness(70%);
+}
+
+.custom-hotel-link{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}

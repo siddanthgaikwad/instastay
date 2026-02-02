@@ -1,0 +1,48 @@
+.covid-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.covid-container h1{
+    font-family: "raleway", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.covid-images-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.covid-image{
+    height: 225px;
+    width: 235px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.covid-image:hover{
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+.image-container p{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}

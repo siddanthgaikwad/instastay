@@ -1,0 +1,44 @@
+.font-Raleway {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 35px;
+}
+
+.bug-form-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 233, 233);
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.bug-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-field{
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+.bug-btn{
+    background-color:rgb(245, 150, 54);
+    width: 80%;
+    border: none;
+}
+
+.bug-btn:hover{
+    background-color:rgb(247, 132, 18)
+}

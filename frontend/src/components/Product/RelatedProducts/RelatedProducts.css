@@ -1,0 +1,72 @@
+.related-products-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* padding: 24px; */
+    margin-left: 15px;
+}
+
+.related-products-couponCard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3B82F6;
+    color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    width: 304px;
+}
+
+.related-products-discount-text{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.promo-badge{
+    background-color: #FDE68A;
+    color: #1E40AF;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.custom-relatedProducts{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-relatedProducts:hover{
+    transform: scale(1.05);
+}
+
+.related-product-image1{
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.relatedProducts-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.related-products-btn{
+    width: 100%;
+    margin-top: 32px;
+    color: white;
+    background-color: #3B82F6;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.font-Raleway {
+  font-family: 'Raleway', sans-serif;
+}

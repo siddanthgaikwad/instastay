@@ -1,0 +1,133 @@
+.orders-container{
+    display: flex;
+    /* flex-direction: column; */
+    /* margin-top: 24px; */
+    min-height: 100vh;
+}
+
+/* .mobile-navbar{
+    min-height: 40vh;
+} */
+
+.orders-content{
+    width: 100%;
+    padding: 16px;
+    background-color: #f9fafb;
+}
+
+.order-card{
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.order-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.order-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.order-details p{
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+.label{
+    font-weight: 600;
+}
+
+.order-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #2563eb;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.checkout-btn:hover{
+    background: #1e40af;
+}
+
+.checkout-btn:focus{
+    outline: 2px solid #2563eb;
+    outline-offset: 3px;
+}
+
+.no-orders{
+    font-size: 18px;
+    color: #4b5563;
+    text-align: center;
+    margin-top: 32px;
+}
+
+@media (min-width: 1024px){
+    .orders-container{
+        flex-direction: row;
+    }
+
+    .order-content{
+        width: 75%;
+        padding: 32px;
+    }
+
+    .orders-title{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px){
+    .order-card{
+        padding: 16px;
+    }
+
+    .order-title{
+        font-size: 24px;
+    }
+
+    .checkout-btn{
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px){
+    .orders-content{
+        padding: 12px;
+    }
+
+    .order-title{
+        font-size: 20px;
+    }
+
+    .checkout-btn{
+        width: 100%;
+        justify-content: center;
+    }
+}

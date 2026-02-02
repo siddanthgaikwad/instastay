@@ -1,0 +1,18 @@
+.custom-dashboard-container{
+    display: flex;
+    /* padding: 40px; */
+    background-color: #f9fafb;
+    min-height: 100vh;
+    /* margin-left: 120px; */
+}
+
+.custom-dashboard-card{
+    display: flex;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); /* shadow-lg */
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #ffffff;
+    min-height: 100vh;
+    /* width: 1312px; */
+}
+
