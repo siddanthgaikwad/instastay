@@ -55,7 +55,7 @@ Tech Stack
 Installation & Setup
 
   1.Clone the repository:
-      git clone https://github.com/PranayPatel12/InstaStay.git
+      git clone git https://github.com/siddanthgaikwad/instastay.git
       cd InstaStay
   2.Setup Backend:
       cd backend
